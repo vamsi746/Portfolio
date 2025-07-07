@@ -14,7 +14,7 @@ const projects = [
     title: "Movie Magic Ticket Booking",
     description: "Cloud-native movie ticket booking system with seat selection.",
     tech: "Flask, AWS EC2, DynamoDB",
-    codeLink: "https://github.com/vamsi746/movie-magic",
+    codeLink: "https://github.com/vamsi746/moviemagic",
     liveLink: "https://movie-magic-nu.vercel.app/",
     image: process.env.PUBLIC_URL + "/cert-images/moviemagic.jpg"
   },
