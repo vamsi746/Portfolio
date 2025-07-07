@@ -39,7 +39,7 @@ const projects = [
     description: "My personal developer portfolio showcasing my skills, projects, and certifications.",
     tech: "React.js, CSS, JavaScript",
     codeLink: "https://github.com/vamsi746/portfolio",
-    liveLink: "#",
+    liveLink: "https://portfolio-xi-olive-49.vercel.app/",
     image: process.env.PUBLIC_URL + "/cert-images/portfolio.jpg"
   }
 ];
