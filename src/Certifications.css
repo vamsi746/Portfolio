@@ -1,0 +1,108 @@
+.certifications {
+  background-color: #141414;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.certifications h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.cert-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cert-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  min-width: 300px;
+  max-width: 400px;
+  height: 120px;
+  border-radius: 60px;
+  overflow: hidden;
+  border: 2px solid #e50914;
+  box-shadow:
+    0 0 8px rgba(255,255,255,0.1),
+    inset 0 0 5px rgba(255,255,255,0.2),
+    0 0 10px #050000;
+  transition: transform 0.3s ease;
+  background: #1a1a1a;
+}
+
+.cert-card:hover {
+  transform: scale(1.02);
+}
+
+.cert-left {
+  flex: 1;
+  background: rgba(10,10,10,0.95);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 16px;
+}
+
+.cert-middle {
+  flex: 1;
+  background: rgba(20,20,20,0.95);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 16px;
+}
+
+.cert-left h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+.cert-middle p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.cert-middle span {
+  font-size: 11px;
+  color: #ccc;
+}
+
+.cert-image {
+  flex: 0 0 60px;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.cert-image img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+/* Button */
+.view-btn {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 4px 10px;
+  background-color: #e50914;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 11px;
+  transition: background-color 0.3s ease;
+}
+
+.view-btn:hover {
+  background-color: #b0060f;
+}

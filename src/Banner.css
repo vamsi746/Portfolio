@@ -1,0 +1,61 @@
+.banner {
+  position: relative;
+  width: 100%;
+  background: #111;
+  color: white;
+  padding: 140px 20px 80px;
+  text-align: center;
+}
+
+
+.banner h2 {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+.banner p {
+  font-size: 1rem;
+}
+.banner a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.banner-dots {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.banner-dots span {
+  position: absolute;
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: radial-gradient(circle, #c0c0c0, #2c2c2c);
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.6), 0 0 10px rgba(255, 0, 0, 0.3);
+  animation: shineBlink 3s infinite ease-in-out;
+  opacity: 0.8;
+}
+
+@keyframes shineBlink {
+  0%, 100% {
+    opacity: 0.1;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
