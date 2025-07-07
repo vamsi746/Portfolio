@@ -12,8 +12,6 @@ https://portfolio-xi-olive-49.vercel.app/
 
 If you’d like to connect, collaborate, or just say hello, feel free to reach out:
 
-- 📧 **Email:** sangarajuvamsi6@gmail.com
-- 🌐 **LinkedIn:** [linkedin.com/in/your-profile](https://www.linkedin.com/in/lakshmi-narayana-sangaraju-a814472b6/)
-- 🐙 **GitHub:** [github.com/your-username](https://github.com/your-username)
-
----
+### [Github](https://github.com/vamsi746)
+### [Linkedin](https://www.linkedin.com/in/lakshmi-narayana-sangaraju-a814472b6/)
+### [Mail](mailto:sangarajuvamsi6@gmail.com)
