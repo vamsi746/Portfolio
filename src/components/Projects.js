@@ -24,7 +24,7 @@ const projects = [
     tech: "React.js, Node.js, Express.js, MongoDB, Tailwind CSS",
     codeLink: "https://github.com/vamsi746/project-management-tool",
     liveLink: "https://project-management-tool-delta-rosy.vercel.app/",
-    image: process.env.PUBLIC_URL + "/cert-images/projecttool.jpg"
+    image: process.env.PUBLIC_URL + "/cert-images/projecttool.JPG"
   },
   {
     title: "Calculator",
